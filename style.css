@@ -1,0 +1,110 @@
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 4px 0;
+}
+
+
+.container{
+    text-align: justify;
+}
+
+
+.hero {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 1.3cm;
+    padding-left: 500px;
+    font-family: cursive;
+    color: navy;
+}
+
+
+.hero button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.content h2{
+    margin-top: 23px;
+    margin-left: 650px;
+    font-family: cursive;
+    color: palevioletred;
+    flex-direction: inherit;
+    font-size:x-large;
+}
+
+.content p{
+    font-size: 22px;
+    color: gray;
+    font-family: cursive;
+    text-align: justify;
+
+}
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    
+}
+
+.service {
+    border: 12px solid silver;
+    padding: 20px;
+    text-align: center;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom:0;
+}
+
+.try{
+    margin-top: 10px;
+    padding-top: 10px;
+    position: absolute;
+    display: flex;
+}
+
+.hero{
+    position: relative;
+    padding: 1px;
+}
+
+.centered{
+ position: absolute;
+ height: auto;
+ width: 200px;
+ top: 0px;
+left: 0px;
+padding: 50px;
+}
+
+.marqu h1{
+    color: gold;
+    font-size: 60px;
+    font-style: oblique;
+    padding: 30px;
+    margin-left: 930px;
+    text-align: center;
+    text-decoration: double;
+    direction: up;
+    
+}
+
